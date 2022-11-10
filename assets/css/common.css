@@ -319,6 +319,11 @@ button {
   .buttons {
     font-size: 4.5vw;
   }
+
+  .map iframe {
+    width: 70vw;
+    height: 50vw;
+  }
 }
 
 @media (max-width: 520px) {
@@ -343,5 +348,10 @@ button {
 
   .buttons {
     font-size: 5vw;
+  }
+
+  .map iframe {
+    width: 80vw;
+    height: 60vw;
   }
 }
