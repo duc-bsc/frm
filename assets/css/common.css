@@ -152,6 +152,7 @@ button {
   font-weight: bold;
   font-size: 5vw;
   text-transform: uppercase;
+  text-shadow: 0.3em 0.3em 1em #00000082, -0.3em -0.3em 1em #00000082;
 }
 
 /*== == == == ==>title-dot<== == == == == */
@@ -165,6 +166,7 @@ button {
   font-weight: bold;
   font-size: 3vw;
   text-transform: uppercase;
+  text-shadow: 0.3em 0.3em 1em #00000082, -0.3em -0.3em 1em #00000082;
 }
 .title-dot::before,
 .title-dot::after {
