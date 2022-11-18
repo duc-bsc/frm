@@ -127,20 +127,20 @@ button {
   min-height: 100vh;
   width: 100vw;
   display: block;
-  padding: 5vw 0;
+  padding: 5vmin 0;
 }
 /*== == == == ==>logo<== == == == == */
 #logo {
   text-align: center;
 }
 #logo img {
-  max-width: 43vw;
+  max-width: 43vmin;
   display: block;
   margin: 0 auto;
 }
 #logo p {
   color: white;
-  font-size: 4vw;
+  font-size: 4vmin;
   line-height: 1;
   font-weight: 300;
 }
@@ -150,7 +150,7 @@ button {
   text-align: center;
   line-height: 1;
   font-weight: bold;
-  font-size: 5vw;
+  font-size: 5vmin;
   text-transform: uppercase;
   text-shadow: 0.3em 0.3em 1em #00000082, -0.3em -0.3em 1em #00000082;
 }
@@ -164,7 +164,7 @@ button {
   text-align: center;
   line-height: 1;
   font-weight: bold;
-  font-size: 3vw;
+  font-size: 3vmin;
   text-transform: uppercase;
   text-shadow: 0.3em 0.3em 1em #00000082, -0.3em -0.3em 1em #00000082;
 }
@@ -172,7 +172,7 @@ button {
 .title-dot::after {
   content: "..........";
   position: absolute;
-  top: 0.8vw;
+  top: 0.8vmin;
   display: block;
   line-height: 0;
 }
@@ -193,50 +193,50 @@ button {
 .week .date p {
   width: 50%;
   color: white;
-  font-size: 3vw;
+  font-size: 3vmin;
 }
 .week .date p:nth-child(1) {
   text-align: right;
-  padding-right: 1vw;
+  padding-right: 1vmin;
 }
 .week .date p:nth-child(2) {
   text-align: left;
-  padding-left: 1vw;
+  padding-left: 1vmin;
 }
 /*== == == == ==>buttons<== == == == == */
 .buttons {
   display: flex;
   justify-content: space-between;
-  /* width: 53vw; */
+  /* width: 53vmin; */
   width: 14.8em;
   margin: 0 auto;
-  font-size: 3.6vw;
+  font-size: 3.6vmin;
   margin-top: 1.1em;
 }
 .buttons .btn {
   background: #c89f53;
   color: white;
-  /* font-size: 3.6vw; */
+  /* font-size: 3.6vmin; */
   display: flex;
   align-items: center;
   justify-content: center;
   width: 48%;
   text-align: center;
-  border-radius: 1vw;
+  border-radius: 1vmin;
   cursor: pointer;
   box-shadow: 0.3em 0.3em 1em #00000080;
 }
 .buttons .btn i {
   font-size: 0.8em;
-  margin-left: 1vw;
+  margin-left: 1vmin;
 }
 .buttons .btn:hover {
   opacity: 0.7;
 }
 /*== == == == ==>map<== == == == == */
 .map iframe {
-  width: 50vw;
-  height: 40vw;
+  width: 50vmin;
+  height: 40vmin;
   display: block;
   margin: 0 auto;
 }
@@ -244,7 +244,7 @@ button {
 =>                     page1
 == == == == == == == == == == == == == == == == == == == == === * */
 #page1 .title {
-  /* margin-top: 4vw; */
+  /* margin-top: 4vmin; */
   margin-top: 0.8em;
 }
 #page1 .title-dot {
@@ -252,26 +252,26 @@ button {
   margin-top: 1em;
 }
 #page1 .buttons {
-  margin-top: 4vw;
+  margin-top: 4vmin;
 }
 #page1 .map {
-  margin-top: 4vw;
+  margin-top: 4vmin;
 }
 /**=== == == == == == == == == == == == == == == == == == == == == 
 =>                     page
 == == == == == == == == == == == == == == == == == == == == === * */
 #page2 .title-dot {
-  width: 49vw;
+  width: 49vmin;
 }
 #page2 .title-dot1 {
-  margin-top: 4vw;
+  margin-top: 4vmin;
 }
 #page2 .title-dot1::before,
 #page2 .title-dot1::after {
   content: "...........";
 }
 #page2 .title-dot2 {
-  margin-top: 3vw;
+  margin-top: 3vmin;
 }
 #page2 .title-dot2::before,
 #page2 .title-dot2::after {
@@ -280,81 +280,81 @@ button {
 #page2 .btn {
   background: #c89f53;
   color: white;
-  font-size: 3.6vw;
+  font-size: 3.6vmin;
   display: flex;
   align-items: center;
   justify-content: center;
 
-  width: 25vw;
+  width: 25vmin;
   margin: 0 auto;
   text-align: center;
-  border-radius: 1vw;
+  border-radius: 1vmin;
   cursor: pointer;
-  margin-top: 3vw;
-  border: 0.5vw dotted white;
+  margin-top: 3vmin;
+  border: 0.5vmin dotted white;
 }
 #page2 .btn:hover {
   opacity: 0.7;
 }
 #page2 .map {
-  margin-top: 4vw;
+  margin-top: 4vmin;
 }
 @media (max-width: 860px) {
   #logo img {
-    max-width: 53.75vw;
+    max-width: 53.75vmin;
   }
 
   #logo p {
-    font-size: 5vw;
+    font-size: 5vmin;
   }
 
   .week .date p {
-    font-size: 3.75vw;
+    font-size: 3.75vmin;
   }
 
   .title {
-    font-size: 6.25vw;
+    font-size: 6.25vmin;
   }
   .title-dot {
-    font-size: 3.75vw;
+    font-size: 3.75vmin;
   }
 
   .buttons {
-    font-size: 4.5vw;
+    font-size: 4.5vmin;
   }
 
   .map iframe {
-    width: 70vw;
-    height: 50vw;
+    width: 70vmin;
+    height: 50vmin;
   }
 }
 
 @media (max-width: 520px) {
   #logo img {
-    max-width: 64.5vw;
+    max-width: 64.5vmin;
   }
 
   #logo p {
-    font-size: 6vw;
+    font-size: 6vmin;
   }
 
   .week .date p {
-    font-size: 4.5vw;
+    font-size: 4.5vmin;
   }
 
   .title {
-    font-size: 6.25vw;
+    font-size: 6.25vmin;
   }
   .title-dot {
-    font-size: 4.5vw;
+    font-size: 4.5vmin;
   }
 
   .buttons {
-    font-size: 5vw;
+    font-size: 5vmin;
   }
 
   .map iframe {
-    width: 80vw;
-    height: 60vw;
+    width: 80vmin;
+    height: 60vmin;
   }
 }
